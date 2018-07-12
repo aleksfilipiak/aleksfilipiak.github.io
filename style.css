@@ -3,6 +3,7 @@ body {
     width: 2050px;
     background-image: url("images/business-coming-soon-computer-211122.jpg");
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #root {
