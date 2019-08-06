@@ -2,8 +2,11 @@
   "name": "mdc-101-web",
   "private": true,
   "version": "0.0.0",
+  "homepage": "https://aleksfiilipiak.github.io",
   "scripts": {
-    "start": "webpack-dev-server --progress"
+    "start": "webpack-dev-server --progress",
+    "deploy": "gh-pages -d dist",
+    "build": "webpack"
   },
   "license": "MIT",
   "devDependencies": {
